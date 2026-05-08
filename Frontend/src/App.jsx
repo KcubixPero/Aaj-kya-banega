@@ -7,47 +7,64 @@ import RecommendationList from "./components/RecommendationList";
 import "./App.css";
 
 function App() {
-    const [foods, setFoods] = useState([]);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState("");
+  const [foods, setFoods] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-    const handleRecommend = async (preferences) => {
-        try {
-            setLoading(true);
-            setError("");
+  const handleRecommend = async (preferences) => {
+    try {
+      setLoading(true);
+      setError("");
 
-            const response = await API.post(
-                "/recommend",
-                preferences
-            );
+      const response = await API.post(
+        "/recommend",
+        preferences
+      );
 
-            setFoods(response.data.data);
-        } catch (err) {
-            setError("Something went wrong.");
-            console.error(err);
-        } finally {
-            setLoading(false);
-        }
-    };
+      setFoods(response.data.data);
+    } catch (err) {
+      setError("Something went wrong.");
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    return (
-        <div className="app">
-            <h1>Aaj Kya Banega? 🍽️</h1>
+  const handleRandomFood = async () => {
+    try {
+      setLoading(true);
 
-            <p className="subtitle">
-                Stop overthinking food.
-                Get instant recommendations.
-            </p>
+      const response = await API.get("/random");
 
-            <FilterPanel onRecommend={handleRecommend} />
+      setFoods([response.data.data]);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-            {loading && <p>Loading recommendations...</p>}
+  return (
+    <div className="app">
+      <h1>Aaj Kya Banega? 🍽️</h1>
 
-            {error && <p>{error}</p>}
+      <p className="subtitle">
+        Stop overthinking food.
+        Get instant recommendations.
+      </p>
 
-            <RecommendationList foods={foods} />
-        </div>
-    );
+      <FilterPanel
+        onRecommend={handleRecommend}
+        onRandomFood={handleRandomFood}
+      />
+
+      {loading && <p>Loading recommendations...</p>}
+
+      {error && <p>{error}</p>}
+
+      <RecommendationList foods={foods} />
+    </div>
+  );
 }
 
 export default App;

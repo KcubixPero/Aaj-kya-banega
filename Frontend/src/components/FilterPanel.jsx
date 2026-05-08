@@ -1,6 +1,9 @@
 import { useState } from "react";
 
-const FilterPanel = ({ onRecommend }) => {
+const FilterPanel = ({
+    onRecommend,
+    onRandomFood
+}) => {
     const [preferences, setPreferences] = useState({
         mealType: "",
         category: "",
@@ -63,6 +66,15 @@ const FilterPanel = ({ onRecommend }) => {
             <button type="submit">
                 Suggest Food 🍽️
             </button>
+
+            <button
+                type="button"
+                className="random-btn"
+                onClick={onRandomFood}
+            >
+                Bas Kuch Bata Do 😭
+            </button>
+
         </form>
     );
 };

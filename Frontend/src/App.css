@@ -73,3 +73,14 @@ h1 {
 .food-card p {
     margin-bottom: 8px;
 }
+
+.random-btn {
+    margin-bottom: 30px;
+    padding: 12px 20px;
+    border: none;
+    background: crimson;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
