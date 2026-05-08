@@ -1,0 +1,895 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Biryani",
+        "category": "nonveg",
+        "cuisine": "Mughlai",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 4,
+        "budget": "high",
+        "hostelFriendly": false,
+        "healthy": false,
+        "comfortFood": true,
+        "proteinRich": true,
+        "riceBased": true,
+        "gravy": false,
+        "dry": false
+    },
+    {
+        "id": 2,
+        "name": "Kolhapuri Mutton",
+        "category": "nonveg",
+        "cuisine": "Maharashtrian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 5,
+        "budget": "high",
+        "hostelFriendly": false,
+        "healthy": true,
+        "comfortFood": true,
+        "proteinRich": true,
+        "gravy": true,
+        "dry": false
+    },
+    {
+        "id": 3,
+        "name": "Chicken Fried Rice",
+        "category": "nonveg",
+        "cuisine": "Indo-Chinese",
+        "mealType": [
+            "lunch",
+            "dinner",
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "medium",
+        "hostelFriendly": true,
+        "healthy": false,
+        "comfortFood": true,
+        "proteinRich": true,
+        "riceBased": true
+    },
+    {
+        "id": 4,
+        "name": "Chicken 65",
+        "category": "nonveg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 5,
+        "budget": "medium",
+        "hostelFriendly": true,
+        "healthy": false,
+        "proteinRich": true,
+        "dry": true
+    },
+    {
+        "id": 5,
+        "name": "Chicken Tandoori",
+        "category": "nonveg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 4,
+        "budget": "high",
+        "hostelFriendly": false,
+        "healthy": true,
+        "proteinRich": true,
+        "dry": true
+    },
+    {
+        "id": 6,
+        "name": "Chicken Gravy",
+        "category": "nonveg",
+        "cuisine": "Indian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "medium",
+        "gravy": true,
+        "proteinRich": true
+    },
+    {
+        "id": 7,
+        "name": "Chilli Chicken",
+        "category": "nonveg",
+        "cuisine": "Indo-Chinese",
+        "mealType": [
+            "dinner",
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "medium",
+        "hostelFriendly": true,
+        "dry": true
+    },
+    {
+        "id": 8,
+        "name": "Egg Bhurji Dry",
+        "category": "egg",
+        "cuisine": "Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "proteinRich": true,
+        "dry": true
+    },
+    {
+        "id": 9,
+        "name": "Egg Curry",
+        "category": "egg",
+        "cuisine": "Indian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "low",
+        "proteinRich": true,
+        "gravy": true
+    },
+    {
+        "id": 10,
+        "name": "Omelette Bread",
+        "category": "egg",
+        "cuisine": "Street Food",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "proteinRich": true,
+        "breadBased": true
+    },
+    {
+        "id": 11,
+        "name": "Egg Roll",
+        "category": "egg",
+        "cuisine": "Street Food",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 3,
+        "budget": "low",
+        "hostelFriendly": true,
+        "breadBased": true
+    },
+    {
+        "id": 12,
+        "name": "Poha",
+        "category": "veg",
+        "cuisine": "Maharashtrian",
+        "mealType": [
+            "breakfast"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true
+    },
+    {
+        "id": 13,
+        "name": "Dosa",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": false,
+        "healthy": true
+    },
+    {
+        "id": 14,
+        "name": "Idli",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "breakfast"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "healthy": true
+    },
+    {
+        "id": 15,
+        "name": "Medu Vada",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "breakfast",
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "comfortFood": true
+    },
+    {
+        "id": 16,
+        "name": "Uttapam",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "healthy": true
+    },
+    {
+        "id": 17,
+        "name": "Aloo Paratha",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "comfortFood": true
+    },
+    {
+        "id": 18,
+        "name": "Paneer Paratha",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium",
+        "proteinRich": true
+    },
+    {
+        "id": 19,
+        "name": "Paneer Sabji",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "medium",
+        "proteinRich": true,
+        "gravy": true
+    },
+    {
+        "id": 20,
+        "name": "Chilli Paneer",
+        "category": "veg",
+        "cuisine": "Indo-Chinese",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "medium",
+        "dry": true
+    },
+    {
+        "id": 21,
+        "name": "Palak Paneer",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium",
+        "healthy": true,
+        "proteinRich": true,
+        "gravy": true
+    },
+    {
+        "id": 22,
+        "name": "Pav Bhaji",
+        "category": "veg",
+        "cuisine": "Street Food",
+        "mealType": [
+            "dinner",
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "low",
+        "comfortFood": true,
+        "breadBased": true
+    },
+    {
+        "id": 23,
+        "name": "Misal Pav",
+        "category": "veg",
+        "cuisine": "Maharashtrian",
+        "mealType": [
+            "breakfast",
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 5,
+        "budget": "low",
+        "breadBased": true
+    },
+    {
+        "id": 24,
+        "name": "Maggi",
+        "category": "snack",
+        "cuisine": "Instant Food",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "comfortFood": true
+    },
+    {
+        "id": 25,
+        "name": "Pasta",
+        "category": "snack",
+        "cuisine": "Italian",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium",
+        "hostelFriendly": true
+    },
+    {
+        "id": 26,
+        "name": "Hakka Noodles",
+        "category": "snack",
+        "cuisine": "Indo-Chinese",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "medium",
+        "hostelFriendly": true
+    },
+    {
+        "id": 27,
+        "name": "Chicken Lollipop",
+        "category": "nonveg",
+        "cuisine": "Indo-Chinese",
+        "mealType": [
+            "snack",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "medium",
+        "proteinRich": true,
+        "dry": true
+    },
+    {
+        "id": 28,
+        "name": "Appe",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "breakfast",
+            "snack"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 1,
+        "budget": "low",
+        "healthy": true,
+        "dry": true
+    },
+    {
+        "id": 29,
+        "name": "Mutton",
+        "category": "nonveg",
+        "cuisine": "Maharashtrian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 4,
+        "budget": "high",
+        "hostelFriendly": false,
+        "healthy": true,
+        "comfortFood": true,
+        "proteinRich": true,
+        "gravy": true,
+        "dry": false
+    },
+    {
+        "id": 30,
+        "name": "Chicken Shawarma",
+        "category": "nonveg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "medium",
+        "hostelFriendly": false,
+        "healthy": false,
+        "comfortFood": true,
+        "proteinRich": true,
+        "gravy": true,
+        "dry": false
+    },
+    {
+        "id": 31,
+        "name": "Kolhapuri Mutton",
+        "category": "nonveg",
+        "cuisine": "Maharashtrian",
+        "mealType": [
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 5,
+        "budget": "high",
+        "hostelFriendly": false,
+        "healthy": true,
+        "comfortFood": true,
+        "proteinRich": true,
+        "gravy": true,
+        "dry": false
+    },
+    {
+        "id": 32,
+        "name": "Egg Bhurji Gravy",
+        "category": "egg",
+        "cuisine": "Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "low",
+        "hostelFriendly": true,
+        "proteinRich": true,
+        "dry": true
+    },
+    {
+        "id": 33,
+        "name": "Omelette roti",
+        "category": "egg",
+        "cuisine": "Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "proteinRich": true,
+        "breadBased": true
+    },
+    {
+        "id": 34,
+        "name": "Cheese Bread(Without veggies)",
+        "category": "veg",
+        "cuisine": "Street Food",
+        "mealType": [
+            "snack"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "breadBased": true
+    },
+    {
+        "id": 35,
+        "name": "Cheese Bread(With veggies)",
+        "category": "veg",
+        "cuisine": "Street Food",
+        "mealType": [
+            "snack"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "low",
+        "hostelFriendly": true,
+        "breadBased": true
+    },
+    {
+        "id": 36,
+        "name": "Methi Paratha",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low"
+    },
+    {
+        "id": 37,
+        "name": "Pyaaz Paratha",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium"
+    },
+    {
+        "id": 38,
+        "name": "Kat vada",
+        "category": "veg",
+        "cuisine": "South Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 4,
+        "budget": "medium",
+        "breadBased": true
+    },
+    {
+        "id": 39,
+        "name": "Paneer Paratha",
+        "category": "veg",
+        "cuisine": "North Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium",
+        "proteinRich": true,
+        "breadBased": true
+    },
+    {
+        "id": 40,
+        "name": "Aloo sukha sabji",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "dry": true
+    },
+    {
+        "id": 41,
+        "name": "Aloo channa",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 42,
+        "name": "Aloo bhujia",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": false,
+        "dry": true
+    },
+    {
+        "id": 43,
+        "name": "Aloo gravy",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 4,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 44,
+        "name": "Aloo baingan bharta",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 3,
+        "budget": "low",
+        "hostelFriendly": false,
+        "healthy": true,
+        "gravy": true
+    },
+    {
+        "id": 45,
+        "name": "Aloo gobhi",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 46,
+        "name": "Bhindi fry",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "dry": true
+    },
+    {
+        "id": 47,
+        "name": "Bhindi ki sabji",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 48,
+        "name": "Karela",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "dry": true
+    },
+    {
+        "id": 49,
+        "name": "Bharwa Karela",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "dry": true
+    },
+    {
+        "id": 50,
+        "name": "Palak saag",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "gravy": true
+    },
+    {
+        "id": 51,
+        "name": "Kaddu Channa",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "gravy": true
+    },
+    {
+        "id": 52,
+        "name": "Kaddu sabji",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 1,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "gravy": true
+    },
+    {
+        "id": 53,
+        "name": "Beans",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "healthy": true,
+        "dry": true
+    },
+    {
+        "id": 54,
+        "name": "Aloo gobhi",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "lunch",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 55,
+        "name": "Dal Tadka",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "low",
+        "spicyLevel": 3,
+        "budget": "low",
+        "hostelFriendly": true,
+        "healthy": true,
+        "comfortFood": true,
+        "gravy": true
+    },
+    {
+        "id": 56,
+        "name": "Moong Dal Tadka",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "breakfast",
+            "dinner"
+        ],
+        "prepTime": "medium",
+        "spicyLevel": 2,
+        "budget": "medium",
+        "healthy": true,
+        "gravy": true
+    },
+    {
+        "id": 57,
+        "name": "Litti Chhokha",
+        "category": "veg",
+        "cuisine": "Indian",
+        "mealType": [
+            "dinner"
+        ],
+        "prepTime": "high",
+        "spicyLevel": 3,
+        "budget": "medium",
+        "comfortFood": true
+    }
+]
