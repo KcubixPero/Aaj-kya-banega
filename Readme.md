@@ -1,191 +1,209 @@
 # 🍛 Aaj Kya Banega?
 
-## The Ultimate Indian Household Crisis Solver™
+## Solving India’s Biggest Daily Crisis™
 
-Every Indian household faces the same terrifying question asked by our mothers every single day:
+Every Indian household faces the same terrifying question daily:
 
-> **"Beta aaj khane mai kya banana hai?"**
+> **"Aaj khane mai kya banega?"**
 
-And despite humanity reaching the moon, building AI, and creating quantum computers…
+And despite humanity:
+- reaching the moon
+- building AI
+- inventing quantum computing
 
-we all still respond with:
+our response is still:
 
 > **"Kuch bhi."**
 
-This project attempts to solve that national crisis using technology.
+This project attempts to solve that national problem using technology.
 
 ---
 
 # 🤌 What Is This?
 
-**Aaj Kya Banega?** is an intelligent Indian household meal recommendation system that simulates actual food decision-making inside a home.
+**Aaj Kya Banega?** is a smart food recommendation web app inspired by real Indian household food decision-making.
 
-This system understands:
+The system recommends dishes based on:
+- meal type
+- budget
+- spice preference
+- veg/non-veg preference
+- comfort food choices
+- hostel-friendliness
+- repetition avoidance
 
-* weather
-* mood
-* laziness levels
-* ingredient availability
-* repetition fatigue
-* family preferences
-* emotional damage caused by hearing "kal bhi yehi bana tha"
+while also handling the emotional trauma of hearing:
 
----
-
-# 🧠 The Core Philosophy
-
-Choosing food is not a technical problem.
-
-It is:
-
-* a psychological problem
-* a logistical problem
-* a family politics problem
-* and sometimes a financial problem near month-end 💀
-
-This project tries to model all of that.
+> **"Kal bhi yehi bana tha."**
 
 ---
 
-# ✨ Features
+# ✨ Current Features
 
-## 🌧️ Weather-Based Recommendations
+## 🍽️ Smart Food Recommendation Engine
 
-### Rainy Evening?
+Get dish recommendations using:
+- weighted scoring
+- contextual filtering
+- user preferences
 
-The engine immediately understands:
-
-* pakoda
-* chai
-* maggi
-
-because that is simply the law.
+The engine ranks dishes dynamically instead of randomly showing food.
 
 ---
 
-## 😴 Laziness Detection Engine™
+## 🔁 Anti-Repetition Logic
 
-Low energy levels detected?
+The system tracks recently selected meals and reduces chances of recommending the same dish repeatedly.
 
-Recommended:
+Because nobody wants:
 
-* khichdi
-* bread omelette
-* poha
-* "zomato karle"
+> "Roz roz wahi khana."
 
 ---
 
-## 🔁 Repetition Avoidance
+## 🎲 “Bas Kuch Bata Do 😭” Mode
 
-Made Rajma yesterday?
+For users who:
+- contribute nothing to the discussion
+- reject every suggestion
+- and still say “kuch bhi chalega”
 
-Then NO.
-You are not getting Rajma again today.
-
-This system protects households from:
-
-> "Roz roz same cheez kaun khata hai?"
-
----
-
-## 🎡 "Kuch Bhi" Mode
-
-For users who contribute absolutely nothing to the decision-making process.
-
-Features:
-
-* random high-quality suggestions
-* spinning wheel
-* chaos
-* destiny
-
----
-
-## 👨‍👩‍👧‍👦 Family Preference System
-
-Because every household has:
-
-* one person who hates spicy food
-* one person who only eats paneer
-* one person on a fake diet
-* and one person who rejects every suggestion without contributing alternatives
-
-The system accounts for all of them.
-
----
-
-## 🧂 Ingredient-Aware Suggestions
-
-Input:
-
-* potato
-* onion
-* tomato
-
-Output:
-
-* actual possible dishes
-
-instead of recommending:
-
-> "Truffle Mushroom Risotto" (WTF is that)
-
-when your kitchen contains:
-
-* 2 onions
-* 1 garlic clove
-* and half a packet of Maggi
+This mode gives random intelligent suggestions instantly.
 
 ---
 
 ## 📊 Household Analytics
 
-Track:
+Tracks:
+- total meals logged
+- meal type distribution
+- most frequently selected dishes
 
-* most eaten dishes
-* most rejected dishes
-* family food trends
+Example:
+- breakfast frequency
+- dinner-heavy households
+- most repeated comfort foods
+
+---
+
+## 🧠 Smart Scoring System
+
+Recommendations consider:
+- meal type
+- category
+- budget
+- spice level
+- hostel friendliness
+- comfort food preference
+- protein-rich meals
+- healthy meals
+- recent meal history
 
 ---
 
 # 🏗️ Tech Stack
 
 ## Frontend
-
-* React
-* Tailwind CSS
-* Framer Motion
+- React
+- Vite
+- CSS
 
 ## Backend
+- Node.js
+- Express.js
 
-* Node.js
-* Express.js
-
-## Database
-
-* MongoDB
+## Data Storage
+- JSON-based local storage
 
 ---
 
-# ⚙️ Recommendation Engine
+# ⚙️ Recommendation Logic
 
 The recommendation engine uses:
-
-* weighted scoring
-* contextual filtering
-* repetition penalties
-* household logic
-* emotional intelligence (almost)
+- weighted scoring
+- contextual ranking
+- anti-repetition penalties
+- household meal history
 
 ---
 
 ## Example Logic
 
-| Situation           | System Response         |
-| ------------------- | ----------------------- |
-| Rainy weather       | Pakoda boost            |
-| Low energy          | Quick meals preferred   |
-| Dish made yesterday | Immediate rejection     |
-| Sunday              | Special food priority   |
-| End of month        | Survival mode activated |
+| Situation | System Response |
+|---|---|
+| Dish made yesterday | Heavy score penalty |
+| Hostel-friendly requested | Quick/simple dishes boosted |
+| High spice preference | Spicy dishes ranked higher |
+| Budget = low | Affordable meals prioritized |
+| Random mode used | Smart random recommendation |
+
+---
+
+# 📂 Project Structure
+
+```text
+Aaj-kya-banega/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── data/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   └── components/
+│
+└── README.md
+```
+
+---
+
+# 🚀 Future Plans
+
+Planned upgrades:
+- ingredient-aware recommendations
+- weather-based food suggestions
+- mood-based recommendations
+- user profiles
+- MongoDB integration
+- authentication
+- food wheel animation
+- AI-powered household analytics
+
+---
+
+# 🧪 Running Locally
+
+## Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+# 🎯 Core Idea
+
+This project is not trying to become:
+- another food delivery app
+- another recipe website
+
+It is trying to solve one very specific problem:
+
+> “Bhai khana kya khaaye?”
+
+And honestly, that problem is harder than most engineering problems.
